@@ -74,5 +74,6 @@ async fn update_user_profile(
     )
     .await
     .map_err(|e| format!("Error updating profile: {:?}", e));
-    result
+    result 
 }
+ 
